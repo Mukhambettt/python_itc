@@ -1,0 +1,34 @@
+Задача №1
+a = []
+a1 = input('Введите слово1: ')
+a.append(a1)
+a2 = input('Введите слово2: ')
+a.append(a2)
+a3 = input('Введите слово3: ')
+a.append(a3)
+b = a1 + a2 + a3
+
+if len(b) > 20:
+    if b.isalpha():
+        c = (a.index(max(a)))
+        a.pop(c)
+        d = str(a)
+        print(d.upper())
+Задача 2
+# user = input('Введите почту: ')
+# a = user.endswith('@gmail.com')
+# b = user.endswith('email.ru')
+# if a or b == True: 
+#     pasford = 123456
+#     print(pasford)
+# else:
+#     print('Не верный формат почты')
+
+# past = int(input('Подвердите пороль'))
+
+# if past == pasford:
+#     print('Подверждение прошло успешно')  
+# else:
+#     print('Не удалось подвердить почту ')
+
+
